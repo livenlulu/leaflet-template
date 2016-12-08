@@ -1,0 +1,385 @@
+    body {
+        padding: 0;
+        margin: 0;
+        padding-top: 50px;
+    }  
+
+    html, body {
+        height: 100%;
+        width: 100%;
+        font-size:13px;
+        font-family: 'Dosis';  
+        background-color: #000;
+
+    }
+
+    a {
+        color: #444;
+    }
+
+    a:hover {
+        color: #1206bb;
+        text-decoration: none;
+}
+    }
+
+    h1 {
+        font-size:15px;
+    }
+
+    h2 {
+        font-family: 'Dosis';
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 5px;
+    }
+    h3 {
+        padding-top: 10px;
+    	font-family: 'Dosis';
+    	font-size: 40px;
+    	font-weight: 700;
+    	margin-top: 0px;
+        color: #e8e119;
+    }
+
+    h4 {
+    	font-family: 'Roboto';
+    	font-size: 17px;
+    	font-weight: 300;
+    }
+
+    h6 {
+        font-family: 'Dosis';
+    }
+
+    ul {
+        padding-left: 0px;
+        margin-top: 10px;
+        list-style:none;
+          -webkit-padding-start: 10px;
+          -webkit-padding-end: 10px;
+    }
+
+
+
+
+    .myButton {
+	    margin: 3px;
+	    padding: 8px;
+	    line-height: 15px;
+    }
+
+    #side {
+    
+        height:100%;
+       /* width: 100%;*/
+    }
+
+    #line {
+        margin-top:30px;
+        padding-top: 20px;
+        border-top: 1px solid #888;
+        border-width: 80%;
+    }
+
+    .fa-github {
+        font-size: 20px;
+    }
+
+    .fa-twitter {
+        font-size: 20px;
+    }
+    .fa-facebook {
+        font-size: 20px;
+    }
+
+
+    a .fa-github a .fa-twitter a .fa-faceboo{
+        color:black;
+    }
+
+    a .fa-github:hover {
+        color: #1967be;
+    }
+
+
+    a .fa-twitter:hover {
+        color: #1967be;
+    }
+
+
+    a .fa-facebook:hover {
+        color: #1967be;
+    }
+
+    .input-group {
+        border-radius: 20px;
+    }
+
+
+    #colors {
+        display: table-row;
+    }
+
+    .quartile {
+        display: table-cell;
+    }
+
+    .graph {
+        clear: both;
+   /*     overflow: hidden;*/
+        display: table;
+        height: 13px;
+        width: 100%;
+        border-radius: 3px;
+        -webkit-background-clip: padding;
+        border: 1px solid #b3b3b3;
+    }
+
+    .row {
+        background-color: #242426;
+        margin-left: 0px;
+        margin-right: 0px;
+        color: #000;
+        height: 100%;
+        width: 100%;
+    }
+
+    .panel-danger {
+        border-color: #bab40b;    
+    }
+
+    .panel-danger>.panel-heading {
+        background-color: #bab40b;
+        border-color: #bab40b;
+    }
+
+    #infoWindow {
+        background: #eeeeee;
+        padding: 5px;
+        margin-top: 0px;
+        margin-left: 30px;
+        margin-bottom: 0px;
+        border-radius: 5px;
+        font-size: 10px;
+        position: fixed;
+        bottom: 5px;
+        right: 5px;
+        width: 130px;
+        display: block;
+        opacity: 0.8;
+        color:black;
+        font-family: 'Roboto', sans-serif;
+        height: 50px;
+        z-index: 20;
+    }
+
+    #infoWindow li.min {
+        float: left;
+        text-transform: uppercase;
+        
+    }
+
+    #infoWindow li.max {
+        float: right;
+        text-transform: uppercase;
+       
+    }
+
+    #infoWindow ul {
+      list-style:none;
+      -webkit-padding-start: 10px;
+      -webkit-padding-end: 10px;
+
+    }
+
+    #infoWindow h5 {
+        font-size:13px;
+        font-family: 'Roboto';
+        font-weight:700;
+        margin-left: 10px;
+    }
+
+    #alink {
+        color: black;
+        font-weight: 700;
+    }
+
+    .btn-primary {
+        border-radius: 30px;
+        background-color: #e8e119;
+        border-color: #a5a010;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+
+    #left {
+        padding-top:10px;
+        float: left;
+        width: 100%;
+        /*
+        overflow: scroll;*/
+        display: block;
+
+    }
+
+
+    text {
+        font: 12px sans-serif;
+    }
+    
+    #chart svg {
+        height: auto;
+        width:auto;
+    }
+
+    #chart2 svg {
+        height: 80px;
+    }
+
+    g.nvd3 .nv-wrap .nv-discreteBarWithAxes {
+        transform-origin: 0px 0px 0px;
+    }
+
+    .nv-y {
+        display: none;
+    }   
+    .nv-x {
+        display: none;
+    }   
+
+    .nv-zeroLine {
+        display: none;
+    }
+
+    #sq1 {
+        color: ##4daf4a;
+    }
+
+
+    #container {
+        height:100%;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+        overflow: hidden;
+    }
+
+    #lef2 {
+        padding-left:15px;
+        padding-right: 15px;
+        position: relative;
+        width: 25%;
+        height: 100%;
+        background-color: #eeeeee;
+        overflow: scroll;
+        display: block;
+        float: left;
+    }
+
+    #rig2 {
+        width: 75%;
+        float: right;
+        height:100%;
+       /* position: fixed;*/
+    }
+
+
+    #myMap {
+        height: 100%;
+        width: 100%;
+        float: right;
+        position: fixed;
+        box-shadow: 0 0 10px rgba(0,0,0,0.55);
+    }
+
+
+    .navbar {
+        margin-bottom: 0px;
+        position:relative;
+        width:100%;
+        top: 2px;
+        font-family: 'Oswald';
+        min-height: 50px;
+        height: 50px;
+        /*background-image: linear-gradient(to bottom, #2b6988 0%, #1f4b61 100%);
+   */ }
+
+    .navbar-brand {
+        font-family: 'Dosis';
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+
+    .navbar-right {
+        margin-top: 0px;
+        font-family: 'Dosis';
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .navbar-right a.dropdown-toggle {
+        top: 0;
+        height:50px;
+    }
+
+
+    .navbar-default {
+        position: fixed;
+        right:0;
+        top:0;
+        z-index:130;
+    }
+
+
+    @media screen and (max-width: 767px) {
+
+    #lef2 {
+        padding-left:15px;
+        padding-right: 15px;
+        position: relative;
+
+        width: 40%;
+        background-color: #242426;
+    }
+
+    #rig2 {
+        width: 60%;
+        float: right;
+        height:100%;
+        
+        display: block;  
+        z-index: 10;  
+
+    }
+    }
+
+
+/*
+
+
+    chartContainer {
+        border-top: 1px dashed #504B9D;
+        padding-top: 7px;
+        margin-top: 9px;
+    }*/
+
+/*
+    .col-sm-9, .col-md-9 {
+        padding-left: 0px;
+        padding-right: 0px;
+        position: absolute;
+        display: block;
+        min-height: 300px;
+        height: 100%;
+    }
+
+    .col-md-3 {
+        height: 100%;
+    }
+
+    .sidebar-cell {   
+        display: block;
+        overflow: scroll;
+    }*/
