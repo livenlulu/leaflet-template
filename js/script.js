@@ -124,7 +124,7 @@ var panOptions = {
     updateChart(e.target.feature.properties);
 
     // console.log(layer.feature.properties.VALUE2);
-    $('#side').html('<h4><b><font color="#000">' + layer.feature.properties.VALUE2 + '%' +'</font></b>...' + '</h4>');
+    $('#side').html('<h4><b><font color="#000">' + layer.feature.properties.shape_star + '%' +'</font></b>...' + '</h4>');
   	}
 
   function resetHighlight(e) {
